@@ -217,7 +217,7 @@ You can amend the commit now, with
 
 	git commit --amend \$gpg_sign_opt_quoted
 
-Once you are satisfied with your changes, run
+Once you are satisfied with your changes, run # Adding feature
 
 	git rebase --continue")"
 	warn

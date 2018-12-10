@@ -1,3 +1,4 @@
+# Code developed on master in the meantime
 # This shell script fragment is sourced by git-rebase to implement its
 # preserve-merges mode.
 #

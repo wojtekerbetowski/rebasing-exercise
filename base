@@ -31,7 +31,7 @@ msg="$state_dir"/message
 # written to the file so far (including the initial "pick" commit).
 # Each time that a commit message is processed, this line is read and
 # updated.  It is deleted just before the combined commit is made.
-squash_msg="$state_dir"/message-squash
+squash_msg="$state_dir"/message-squash # Bugfixing
 
 # If the current series of squash/fixups has not yet included a squash
 # command, then this file exists and holds the commit message of the

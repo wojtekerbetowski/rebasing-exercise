@@ -312,7 +312,7 @@ pick_one_preserving_merges () {
 	echo $sha1 >> "$state_dir"/current-commit
 
 	# rewrite parents; if none were rewritten, we can fast-forward.
-	new_parents=
+	new_parents= # Refactoring
 	pend=" $(git rev-list --parents -1 $sha1 | cut -d' ' -s -f2-)"
 	if test "$pend" = " "
 	then

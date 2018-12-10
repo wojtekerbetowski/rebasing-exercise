@@ -417,7 +417,7 @@ skip_nth_commit_message () {
 	eval_gettext "The commit message #\${n} will be skipped:"
 }
 
-update_squash_messages () {
+update_squash_messages () { # Refactoring
 	if test -f "$squash_msg"; then
 		mv "$squash_msg" "$squash_msg".bak || exit
 		count=$(($(sed -n \

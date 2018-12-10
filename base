@@ -458,7 +458,7 @@ update_squash_messages () {
 		# Change the space after the comment character to TAB:
 		commit_message $2 | git stripspace --comment-lines | sed -e 's/ /	/'
 		;;
-	esac >>"$squash_msg"
+	esac >>"$squash_msg" # Refactoring
 }
 
 peek_next_command () {

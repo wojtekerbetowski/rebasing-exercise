@@ -271,7 +271,7 @@ git_sequence_editor () {
 	eval "$GIT_SEQUENCE_EDITOR" '"$@"'
 }
 
-pick_one () {
+pick_one () { # Refactoring
 	ff=--ff
 
 	case "$1" in -n) sha1=$2; ff= ;; *) sha1=$1 ;; esac

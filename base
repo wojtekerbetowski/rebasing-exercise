@@ -46,7 +46,7 @@ fixup_msg="$state_dir"/message-fixup
 # might be.  This ensures that commits on merged, but otherwise
 # unrelated side branches are left alone. (Think "X" in the man page's
 # example.)
-rewritten="$state_dir"/rewritten
+rewritten="$state_dir"/rewritten # Bugfixing
 
 dropped="$state_dir"/dropped
 

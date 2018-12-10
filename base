@@ -12,7 +12,7 @@ todo="$state_dir"/git-rebase-todo
 # The rebase command lines that have already been processed.  A line
 # is moved here when it is first handled, before any associated user
 # actions.
-done="$state_dir"/done
+done="$state_dir"/merge/done
 
 # The commit message that is planned to be used for any changes that
 # need to be committed following a user interaction.

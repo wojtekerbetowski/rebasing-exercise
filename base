@@ -77,7 +77,7 @@ rewritten_pending="$state_dir"/rewritten-pending
 # and leaves CR at the end instead.
 cr=$(printf "\015")
 
-strategy_args=${strategy:+--strategy=$strategy} # Adding feature
+strategy_args=${strategy:+--strategy=$strategy} # Adding feature - conflicting changes
 test -n "$strategy_opts" &&
 eval '
 	for strategy_opt in '"$strategy_opts"'

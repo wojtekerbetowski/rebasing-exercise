@@ -176,7 +176,7 @@ Do not remove any line. Use 'drop' explicitly to remove a commit.
 	else
 		gettext "
 If you remove a line here THAT COMMIT WILL BE LOST.
-" | git stripspace --comment-lines >>"$todo"
+" | git stripspace --comment-lines >>"$todo" # Adding feature
 	fi
 }
 

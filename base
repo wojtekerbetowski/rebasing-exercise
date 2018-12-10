@@ -105,7 +105,7 @@ warn () {
 	printf '%s\n' "$*" >&2
 }
 
-# Output the commit message for the specified commit.
+# Output the commit message for the specified commit. # Adding feature
 commit_message () {
 	git cat-file commit "$1" | sed "1,/^$/d"
 }
